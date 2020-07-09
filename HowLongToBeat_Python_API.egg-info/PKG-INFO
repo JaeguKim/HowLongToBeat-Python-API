@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: HowLongToBeat-Python-API
+Version: 0.1.14
+Summary: This package helps to get data from howlongtobeat.com
+Home-page: https://github.com/JaeguKim/HowLongToBeat-Python-API
+Author: KimWithGlasses
+Author-email: kimwithglasses@kakao.com
+License: UNKNOWN
+Description: # Example Package
+        You can easily search play-time of specific game you want to know by using this package.   
+        You can use
+        [Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

@@ -1,0 +1,10 @@
+README.md
+setup.py
+HowLongToBeat_Python_API.egg-info/PKG-INFO
+HowLongToBeat_Python_API.egg-info/SOURCES.txt
+HowLongToBeat_Python_API.egg-info/dependency_links.txt
+HowLongToBeat_Python_API.egg-info/requires.txt
+HowLongToBeat_Python_API.egg-info/top_level.txt
+hltbapi/HowLongToBeatEntry.py
+hltbapi/HtmlScraper.py
+hltbapi/__init__.py
