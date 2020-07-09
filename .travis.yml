@@ -4,7 +4,7 @@ python:
 
 addons:
   sonarcloud:
-    organization: "scrappycocco-github"
+    organization: "JaeguKim-github"
 
 cache:
   directories:
@@ -12,13 +12,13 @@ cache:
 
 # command to install dependencies
 install:
-  - pip install howlongtobeatpy
+  - pip install HowLongToBeat-Python-API
   - pip install nose
   - pip install codecov
 
 # command to run tests
 script:
-  - nosetests howlongtobeatpy --with-coverage
+  - nosetests HowLongToBeat-Python-API --with-coverage
   - coverage xml
 
 after_success:
