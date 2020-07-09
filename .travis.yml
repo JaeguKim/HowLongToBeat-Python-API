@@ -6,9 +6,9 @@ addons:
   sonarcloud:
     organization: "JaeguKim-github"
 
-cache:
-  directories:
-    - '$HOME/.sonar/cache'
+# cache:
+#   directories:
+#     - '$HOME/.sonar/cache'
 
 # command to install dependencies
 install:
@@ -17,10 +17,10 @@ install:
   - pip install codecov
 
 # command to run tests
-script:
-  - nosetests HowLongToBeat-Python-API --with-coverage
-  - coverage xml
+#script:
+ # - nosetests HowLongToBeat-Python-API --with-coverage
+ # - coverage xml
 
-after_success:
-  - codecov
-  - sonar-scanner
+#after_success:
+#  - codecov
+#  - sonar-scanner
