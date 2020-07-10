@@ -9,18 +9,18 @@ class TestSearch(TestCase):
         self.assertIsNotNone(res)
         self.assertGreater(len(res),0)
 
-    @staticmethod
-    def testEntry(res):
-        for entry in res:
-            print('===================================')
-            print(entry.detailId)
-            print(entry.gameName)
-            print(entry.description)
-            print(entry.playableOn)
-            print(entry.imageUrl)
-            print(entry.timeLabels)
-            print(entry.gameplayMain)
-            print(entry.gameplayMainExtra)
-            print(entry.gameplayCompletionist)
-            print('===================================')
+    # @staticmethod
+    # def testEntry(res):
+    #     for entry in res:
+    #         print('===================================')
+    #         print(entry.detailId)
+    #         print(entry.gameName)
+    #         print(entry.description)
+    #         print(entry.playableOn)
+    #         print(entry.imageUrl)
+    #         print(entry.timeLabels)
+    #         print(entry.gameplayMain)
+    #         print(entry.gameplayMainExtra)
+    #         print(entry.gameplayCompletionist)
+    #         print('===================================')
 
