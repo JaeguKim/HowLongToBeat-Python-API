@@ -18,7 +18,7 @@ install:
 
 # command to run tests
 script:
-  - nosetests HowLongToBeat-Python-API #--with-coverage
+  - nosetests hltb-api #--with-coverage
   #- coverage xml
 
 #after_success:
