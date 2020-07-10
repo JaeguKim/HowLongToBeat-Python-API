@@ -17,9 +17,9 @@ install:
   - pip install codecov
 
 # command to run tests
-#script:
- # - nosetests HowLongToBeat-Python-API --with-coverage
- # - coverage xml
+script:
+  - nosetests HowLongToBeat-Python-API #--with-coverage
+  #- coverage xml
 
 #after_success:
 #  - codecov

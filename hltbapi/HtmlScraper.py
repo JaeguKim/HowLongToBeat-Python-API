@@ -11,7 +11,7 @@ class HtmlScraper:
     def search(self,name:str)->List[HowLongToBeatEntry]:
         resHtml = self.getSearchResult(name)
         if resHtml:
-            soup = bs(resHtml)
+            soup = bs(resHtml,features="html.parser")
             parsedHtml = self.parseHtml(soup)
             return parsedHtml
         return None
@@ -35,8 +35,8 @@ class HtmlScraper:
             return resp
         return None
 
-    def parseHtml(self,soup):
-        results = []
+    def parseHtml(self,soup) -> List[HowLongToBeatEntry]:
+        results : List[HowLongToBeatEntry] = []
         if len(soup.h3) > 0:
             liElements = soup.findAll('li')
             for elem in liElements:

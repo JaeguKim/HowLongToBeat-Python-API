@@ -21,6 +21,7 @@ setuptools.setup(
     install_requires=[
         'urllib3',
         'bs4>=0.0.1',
+        #bs4 installing is failed because bs4 doesn't exist in testPyPI
     ],
     python_requires='>=3.6',
 )
